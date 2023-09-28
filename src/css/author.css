@@ -5,11 +5,19 @@ body {
     background-repeat: no-repeat;
 }
 .top-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
     display: flex;
 }
 .top-nav div {
-    margin: 4px 8px;
     font-size: 28px;
+}
+.top-nav div:first-child {
+    margin: 8px 8px 0px auto;
+}
+.top-nav div:last-child {
+    margin: 8px auto 0px 8px;
 }
 .top-nav a {
     text-decoration: none;
@@ -21,4 +29,21 @@ body {
 .cur a {
     font-size: 36px;
     color: blueviolet;
+}
+.position {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 100px;
+    background-color: violet;
+}
+.position img {
+    width: 100%;
+}
+.position div {
+    margin-top: -40px;
+    margin-left: 10px;
+    color: darkblue;
+    font-family: fantasy;
 }

@@ -5,11 +5,19 @@ body {
     background-repeat: no-repeat;
 }
 .top-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
     display: flex;
 }
 .top-nav div {
-    margin: 4px 8px;
     font-size: 28px;
+}
+.top-nav div:first-child {
+    margin: 8px 8px 0px auto;
+}
+.top-nav div:last-child {
+    margin: 8px auto 0px 8px;
 }
 .top-nav a {
     text-decoration: none;
@@ -28,7 +36,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .title-cont p {
-    margin: 32px auto 0 auto;
+    margin: 68px auto 0 auto;
 }
 .cur a {
     font-size: 36px;
