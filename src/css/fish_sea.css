@@ -1,0 +1,39 @@
+body {
+    background-color: blue;
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.top-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+.top-nav div {
+    font-size: 28px;
+    margin: auto;
+}
+.top-nav a {
+    text-decoration: none;
+    color: black;
+}
+.top-nav a:hover{
+    color: black;
+}
+.title-cont {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: greenyellow;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-cont p {
+    margin: 68px auto 0 auto;
+}
+.cur a {
+    font-size: 36px;
+    color: greenyellow;
+}
