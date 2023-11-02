@@ -1,6 +1,6 @@
 body {
     background-color: pink;
-    background-image: url(../img/cat.png);
+    background-image: url(../img/cat1.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -84,4 +84,27 @@ body {
 }
 .menu-title p {
   margin: 16px 0;
+}
+#number-field {
+    display: flex;
+    padding: 0 0 0 4px;
+    width: 100%;
+    border: 4px solid white;
+    border-radius: 8px;
+    margin-left: 50px;
+}
+#plus-btn {
+    background-color: greenyellow;
+   border: 4px solid white;
+   border-radius: 8px;
+   margin: 0;
+   padding: 4px 12px;
+   font-size: 40px;
+   width: fit-content; 
+   cursor: pointer;
+   margin-top: 49px;
+   margin-left: 200px;
+}
+#plus-btn:hover {
+    background-color: green;
 }

@@ -37,3 +37,27 @@ body {
     font-size: 36px;
     color: greenyellow;
 }
+#carusel {
+    display: flex;
+    width: 100%;
+}
+.arrow {
+    height: 64px;
+    width: 64px;
+    margin: auto 0;
+    text-align: center;
+    color: green;
+    background-color: greenyellow;
+    font-size: 56px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#arrow1 {
+    margin-left: auto;
+}
+#arrow2 {
+    margin-right: auto;
+}
+.carusel-item {
+    max-height: 540px;
+}
